@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+body{background:linear-gradient(to left, #33ccff 0%, #ff66cc 100%);}
+*{margin:0px; padding:0px; box-sizing:border-box;}
+section{padding:40px; margin:50px 50px 50px 50px; border:1px sold gray; box-shadow:10px 10px 10px gray; background-color:white; }
+.papa{display:flex;}
+.child{flex:1;}
+.right{text-align:right;}
+#heading{
+      margin:10px 0px 0px 90px;
+      padding:0px 0px 30px 0px;
+      font-family:monospace;
+      font-size:50px;
+      color:maroon;
+}
+h2{font-size:20px;font-family:sans-serif; }
+p{font-size:15px; color:gray;}
+.border{border:2px solid black; margin-top:10px;}
+input{padding:7px; border:none;}
+.fa{padding:7px;}
+#AA{padding:7px 50px; margin:10px 10px 10px 90px; margin-bottom:20px; margin-right:20px; background-color:blueviolet; 
+      border-radius:30px; width:175px; height:40px; box-shadow:0px 10px 8px gray; color:white; border:none;}
+#AA.hover{
+transform:scale(1,2);
+box-shadow:1px 1px 1px gray;
+}
+.fa-google{color:red; padding:10px;background-color:lightgray;border-radius:50%;}
+.fa-facebook{color:blue; padding:12px 15px;background-color:lightgray;border-radius:50%;}   
+.fa-twitter{color:green; padding:10px;background-color:lightgray;border-radius:50%;}  
+input:focus{border:none; outline: none; box-shadow: none;
+}
+span{margin:0px 0px 0px 90px ;
+
+}
+</style>
+</head>
+<body>
+
+<form action="Registration" method="get">
+    <section>
+    <h1 id="heading" align="center"><b>Creative Design</b></h1>
+        
+
+        <!--       Form start      -->
+
+        <div class="papa">
+            <div class="child">
+                <img src="D:\images\eb3b9e18-5fb0-45e4-8601-61f27c915330.jpg" width="80%" height="400">
+            </div>
+
+            <div class="child">
+                <h2>STUDENT REGISTRATION!</h2><br>
+                <p>Login to Continue..</p><br>
+                <div class="border">
+                    <i class="fa fa-user"></i>
+                    <input type="" name="name" placeholder="Enter Your Name"><br>
+                </div>
+                <div class="border">
+                    <i class="fa fa-envelope"></i>
+                    <input type="" name="email" placeholder="Enter Your Email"><br>
+                </div>
+                <div class="border">
+                    <i class="fa fa-home"></i>
+                    <input type="" name="address" placeholder="Enter Your Address"><br>
+                </div>
+                <div class="border">
+                    <i class="fa fa-phone"></i>
+                    <input type="" name="mobno" placeholder="Enter your Mobile No."><br>
+                </div>
+                <input id="AA" type="submit" value="SUBMIT"><br>
+                <div class="papa">
+            <div class="child">
+                <a href="">Forget Password?</a>
+            </div>
+
+            <div class="child right">
+                <span>New User?</span>
+                <a href="">Sign Up</a>
+            </div>
+        </div><br>
+        <div id="logo">
+                <span>Login With
+                <i class="fa fa-google"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    </form>
+</body>
+</html>
+
